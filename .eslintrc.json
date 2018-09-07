@@ -1,0 +1,9 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "commonjs": true,
+    "es6": true
+  }
+}
