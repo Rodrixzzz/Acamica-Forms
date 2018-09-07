@@ -6,21 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="animate.css">
 </head>
 <body>
     <form action="/" method="GET">
         <label for="name">
             <span>Nombre:</span>
-            <input type="text" name="name" id="name" placeholder="Nombre">
+            <input type="text" name="name" id="name" placeholder="Nombre" class="input-JS">
+            <img src="https://www.clker.com/cliparts/1/1/9/2/12065738771352376078Arnoud999_Right_or_wrong_5.svg.med.png" alt="incorrecto" class="hidden incorrecto">
         </label>
         <label for="password">
             <span>Contraseña:</span>
-            <input type="password" name="password" id="password" placeholder="Contraseña 🙊">
+            <input type="password" name="password" id="password" placeholder="Contraseña 🙊" class="input-JS">
+            <img src="https://www.clker.com/cliparts/1/1/9/2/12065738771352376078Arnoud999_Right_or_wrong_5.svg.med.png" alt="incorrecto" class="hidden incorrecto">
+        </label>
+        <label for="conf-Password">
+            <span>Confirmar:</span>
+            <input type="password" name="conf-Password" id="conf-Password" placeholder="Confirmar Contraseña" class="input-JS">
+            <img src="https://www.clker.com/cliparts/1/1/9/2/12065738771352376078Arnoud999_Right_or_wrong_5.svg.med.png" alt="incorrecto" class="hidden incorrecto">
         </label>
         <div class="buttons">
             <input type="reset" value="Limpiar">
+            <input type="button" value="Mostrar Clave">
             <input type="submit" value="Enviar">
         </div>
     </form>

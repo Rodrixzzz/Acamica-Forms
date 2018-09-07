@@ -39,6 +39,11 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+input[type="button"] {
+    background-color: rgba(255, 0, 0, 0.74);
+    cursor: pointer;
+}
+
 label {
     align-items: center;
     display: flex;
@@ -66,4 +71,12 @@ label span {
 .error {
     background-color: lightpink;
     border: 2px solid red;
+}
+.hidden{
+    display: none;
+}
+img {
+    width: 3%;
+    height: 3%;
+    margin-left: 10px;
 }
