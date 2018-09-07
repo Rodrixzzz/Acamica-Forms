@@ -76,7 +76,9 @@ label span {
     display: none;
 }
 img {
-    width: 3%;
-    height: 3%;
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
+    position: absolute;
+    left: 75%;
 }
